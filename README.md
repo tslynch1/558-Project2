@@ -9,4 +9,4 @@ install.packages(c("shiny","shinydashboard","jsonlite","tidyverse"))
 
 ** Copy and paste this line into RStudio to run the app:
 
-shiny::runGitHub(repo = "558-Project2", subdir = ".../Makeup", ref = "main") 
+shiny::runGitHub('tslynch1/558-Project2', subdir = 'Makeup')
