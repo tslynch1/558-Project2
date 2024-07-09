@@ -8,4 +8,5 @@ The packages needed to run this app include "shiny", "shinydashboard", and "tidy
 install.packages(c("shiny","shinydashboard","tidyverse"))
 
 Copy and paste this line into RStudio to run the app:
+
 shiny::runGitHub(repo = "558-Project2", subdir = ".../Makeup", ref = "main") 
