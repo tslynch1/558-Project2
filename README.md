@@ -1,7 +1,11 @@
 # 558-Project2
 
-Brief description of the app and its purpose.
-A list of packages needed to run the app.
-A line of code that would install all the packages used (so we can easily grab that and run it prior to
-running your app).
-The shiny::runGitHub() code that we can copy and paste into RStudio to run your app
+This app is used to pull data from the Makeup API, which contains 19 variables of information for 931 different products. The app allows the user to download the data they select and creates various numerical and graphical summaries. 
+
+The packages needed to run this app include "shiny", "shinydashboard", and "tidyverse".
+
+** Run the following line of code to install all the necessary packages before running the Makeup App:
+install.packages(c("shiny","shinydashboard","tidyverse"))
+
+Copy and paste this line into RStudio to run the app:
+shiny::runGitHub(repo = "558-Project2", subdir = ".../Makeup", ref = "main") 
