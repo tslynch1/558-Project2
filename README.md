@@ -7,5 +7,6 @@ The packages needed to run this app include "shiny", "shinydashboard", "jsonlite
 ** Run the following line of code to install all the necessary packages before running the Makeup App:
 install.packages(c("shiny","shinydashboard","jsonlite","tidyverse"))
 
-Copy and paste this line into RStudio to run the app:
+** Copy and paste this line into RStudio to run the app:
+
 shiny::runGitHub(repo = "558-Project2", subdir = ".../Makeup", ref = "main") 
